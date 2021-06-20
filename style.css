@@ -215,6 +215,8 @@ p {
     padding-bottom: 30px;
         
 }
+
+
 .pregunta {
     font-family: 'Signika', sans-serif; 
     color: black;  
@@ -226,6 +228,10 @@ p {
     padding-left: 0px;
     display: flex;
    
+}
+
+.lipregunta {
+    margin: 5px;
 }
 
 .scale:hover {
@@ -280,6 +286,11 @@ footer {
     .Box1 {
         align-items: center;
     }
+    .ulpregunta {
+        flex-direction: column;
+        text-align: center;        
+    }
+        
 }
 
 @media (max-width: 768px) {
@@ -298,12 +309,12 @@ footer {
     }
     .Box1 {
         align-items: center;
+    } 
+    .ulpregunta {
+        flex-direction: column;
+        text-align: center;        
     }
-    
-
-    
-
-
+        
 }
 
 
