@@ -158,29 +158,28 @@ ul.slider li:target {
 img {
     max-width: 100%;  
     border-radius: 10px 0 0 0;  
-    height: 210px;
+    height: 220px;
 }
 
-.card-title {
-    text-align: center;
-}
 
-.acard {
+.card {
     text-decoration: none;
-    color: white;
+    color: white;    
+    font-family: 'Signika', sans-serif;  
+}
+
+h2 {   
     font-size: 20px;
-    font-family: 'Signika', sans-serif;
-    margin-left: 10px;
-    padding-top: 10px;
+    margin: 0 0 0 10px;
+    font-weight: 100;
+    padding-bottom: 5px;
 }
 
 .container-text1 {
     max-width: 1200px;
     margin: 0 auto;
     color: black; 
-    text-align: center;
-    
-         
+    text-align: center;  
 }
 
 h3 {
@@ -286,10 +285,10 @@ footer {
     }
 
     .Magyar {
-        font-size: 35px;
+        padding-top: 25px;
+        font-size: 28px;
         display: block;
-        padding-top: 30px;
-        
+        margin: 20px;
     }
     .Box1 {
         align-items: center;
@@ -311,9 +310,10 @@ footer {
         align-items: center;
     }
     .Magyar {
-        padding-top: 30px;
+        padding-top: 25px;
         font-size: 28px;
         display: block;
+        margin: 20px;
         
     }
     .Box1 {
