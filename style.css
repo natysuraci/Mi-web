@@ -274,8 +274,13 @@ footer {
 
     .Magyar {
         font-size: 30px;
+        display: block;
+        align-items: center;
     }
-
+    .Box1 {
+        align-items: center;
+    }
+}
 
 @media (max-width: 768px) {
     .ulnav {
@@ -288,7 +293,13 @@ footer {
     }
     .Magyar {
         font-size: 28px;
+        display: block;
+        align-items: center;
     }
+    .Box1 {
+        align-items: center;
+    }
+    
 
     
 
