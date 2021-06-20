@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;   
 }
@@ -279,9 +283,10 @@ footer {
     }
 
     .Magyar {
-        font-size: 30px;
+        font-size: 35px;
         display: block;
-        align-items: center;
+        padding-top: 30px;
+        
     }
     .Box1 {
         align-items: center;
@@ -303,12 +308,14 @@ footer {
         align-items: center;
     }
     .Magyar {
+        padding-top: 30px;
         font-size: 28px;
         display: block;
-        align-items: center;
+        
     }
     .Box1 {
         align-items: center;
+        
     } 
     .ulpregunta {
         flex-direction: column;
