@@ -65,11 +65,10 @@ nav {
     margin: auto;
     background-color: darkgray;
     width: 1200px;
-}
-
-.mainimg {
     max-width: 100%;
 }
+
+
 
 ul, li {
     margin: 0;
