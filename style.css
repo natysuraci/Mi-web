@@ -67,6 +67,10 @@ nav {
     width: 1200px;
 }
 
+.mainimg {
+    max-width: 100%;
+}
+
 ul, li {
     margin: 0;
     padding: 0;
