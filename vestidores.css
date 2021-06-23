@@ -32,6 +32,10 @@ ul {
     display: flex; 
 }
 
+a {
+    text-decoration: none;
+}
+
 .anav {
     text-decoration: none;
     color: white;
@@ -40,7 +44,7 @@ ul {
 }    
 
 .Box1 {
-    width: 40%;        
+    width: 40%;    
 }
 
 .Magyar {
@@ -48,7 +52,6 @@ ul {
     margin: 10px 0 10px 15px;
     color: white;
     font-weight: 400;
-
 }
 
 .Box2 {
@@ -121,105 +124,6 @@ ul.slider li:target {
     border-radius: 100%;    
 }
 
-.container-cards {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.container-flexcards {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.card {
-    width: 280px;    
-    border-radius: 10px 0 10px 0;
-    box-shadow: 0 4px 4px black;
-    background-color: black; 
-    margin: 10px;
-}
-
-.imgcard {
-    max-width: 100%;  
-    border-radius: 10px 0 0 0;  
-    height: 220px;
-}
-
-
-.card {
-    text-decoration: none;
-    color: white;    
-}
-
-h2 {   
-    font-size: 20px;
-    margin: 0 0 0 10px;
-    font-weight: 100;
-    padding-bottom: 5px;
-}
-
-.section3 {
-    background-color: black;
-}
-
-.container-text1 {
-    max-width: 1200px;
-    margin: 0 auto;
-    color: black; 
-    text-align: center;  
-}
-
-h3 {
-    padding-top: 25px;
-    color: white;    
-}
-
-p {
-    color: white;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 30px;    
-}
-
-
-
-.section4 {
-    background-color: rgb(216, 216, 216);
-}
-
-.container-text2 {
-    max-width: 1200px;
-    margin: 0 auto;
-    color: black;
-    text-align: center; 
-    padding-bottom: 20px;
-}
-
-.pregunta { 
-    color: black;  
-}
-
-.ulpregunta { 
-    color: black; 
-    display: flex;
-}
-
-.lipregunta {
-    margin: 5px;
-}
-
-.scale:hover {
-    transform: scale(1.1);
-}
-
-.ulcontacto {
-    color: white; 
-    display: inline-block;
-    padding-bottom: 30px;
-}
 
 footer {
     background-color: rgb(75, 71, 71);     
@@ -300,11 +204,3 @@ footer {
     }     
      
 }
-
-
-
-
-
-
-
-
