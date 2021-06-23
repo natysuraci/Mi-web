@@ -70,7 +70,6 @@ a {
 
 .slider {
     position: relative;
-    width: 1200px;
     height: 500px;
 }
 
@@ -148,9 +147,17 @@ footer {
 
 @media (max-width: 992px) {
 
+    .slider {
+        position: relative;
+        height: 500px;
+        max-width: 100%;
+    }
+
     .ulnav {
         flex-direction: column;
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .container-flexcards {
         flex-direction: column;
@@ -175,14 +182,16 @@ footer {
 
 @media (max-width: 768px) {
     
-    ul.slider {
+    .slider {
         position: relative;
-        width: 768px;
         height: 500px;
+        max-width: 100%;
     }
     .ulnav {
         flex-direction: column;
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .container-flexcards {
         flex-direction: column;
@@ -204,3 +213,15 @@ footer {
     }     
      
 }
+
+
+
+
+
+
+
+
+
+
+    
+     
