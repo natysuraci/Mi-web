@@ -142,6 +142,7 @@ footer {
 
     .anav {
         padding: 5px;
+        font-size: 15px;
     }
 
     .container-flex {
@@ -159,7 +160,7 @@ footer {
     
     .magyar {
         padding-top: 10px;
-        font-size: 28px;
+        font-size: 25px;
         display: block;
         margin-left: 0;
        
@@ -180,6 +181,7 @@ footer {
 
      .anav {
         padding: 5px;
+        font-size: 15px;
     }
 
     .container-flex {
@@ -197,7 +199,7 @@ footer {
     
     .magyar {
         padding-top: 10px;
-        font-size: 28px;
+        font-size: 25px;
         display: block;
         margin-left: 0;
              
