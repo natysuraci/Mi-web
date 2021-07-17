@@ -12,6 +12,8 @@
     <meta property="og:url" content="https://magyarequipamientos.netlify.app/">
     <link rel="icon" type="image/png" href="img/icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
     <link rel="stylesheet" href="cocinas.css">
     <title>Magyar Equipamientos</title>
 </head>
@@ -20,16 +22,15 @@
         <nav>
             <div class="container">
                 <div class="container-flex">
-                    <div class="Box1">
-                        <a href="index.html"><h1 class="Magyar">MAGYAR Equipamientos</h1>
-                        </a>  
+                    <div class="box1">
+                        <a href="index.html"><h1 class="magyar">MAGYAR Equipamientos</h1></a>
                     </div>
-                    <div class="Box2">
+                    <div class="box2">
                         <ul class="ulnav">                            
                             <li class="linav"><a class="anav" href="cocinas.html">Cocinas</a></li>
                             <li class="linav"><a class="anav" href="vestidores.html">Vestidores</a></li>
                             <li class="linav"><a class="anav" href="baños.html">Baños</a></li>
-                            <li class="linav"><a class="anav" href="vestidores.html">Otros</a></li>
+                            <li class="linav"><a class="anav" href="otros.html">Otros</a></li>
                             <li class="linav"><a class="anav" href="#nosotros">Nosotros</a></li>
                             <li class="linav"><a class="anav" href="#contacto">Contacto</a></li>
                         </ul>
@@ -42,40 +43,60 @@
 
     <main>
         <section class="section1">
-            <div class="container-img">
-                <ul class="slider">
-                    <li id="slide1">
-                        <img src="img/cocina2.jpg" alt="Cocina con muebles blancos">
-                    </li>
-                    <li id="slide2">                    
-                        <img src="img/cocina3.jpg" alt="Cocina con muebles en madera natural">  
-                    </li>
-                </ul>
-            </div>
-            <div class="containermenu">
-                <ul class="menu">
-                    <li>
-                        <a href="#slide1">1</a>
-                    </li>
-                    <li>
-                        <a href="#slide2">2</a>
-                    </li>                    
-                </ul>
-            </div>
+            <div class="slider-container">
+                <div class="your-class">
+                    <div>
+                        <div class="slide-container">
+                            <img src="img/cocina.jpg" alt="Cocina con muebles modernos combinados">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slide-container">
+                            <img src="img/cocina2.jpg" alt="Cocina minimalista con muebles madera blanco">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slide-container">
+                            <img src="img/cocina3.jpg" alt="Cocina minimalista con muebles madera blanco">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slide-container">
+                            <img src="img/cocina4.jpg" alt="Cocina minimalista con muebles madera blanco">
+                        </div>
+                    </div>
+                </div>  
+            </div>            
         </section>
+        <section class="section3">
+            <div class="container text1">
+                <h3 id="contacto">CONTACTO</h3>
+                <ul class="ulcontacto">
+                    <li>MAGYAR Equipamientos</li>
+                    <li>La Ramada 2296</li>
+                    <li>Altos de Villa Cabrera, Córdoba</li>
+                    <li>
+                        <a class="acontacto" href="https://wa.me/+5493515170798">+ 54 9 351 5170798</a>
+                    </li>
+                    <li>
+                        <a class="acontacto" href="mailto:magyarequipamientos@gmail.com">magyarequipamientos@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>    
     </main>
 
     <footer>
         <div>
             <div class="container">
                 <div class="container-flex">
-                    <div class="Box3">
+                    <div class="box3">
                     </div>
-                    <div class="Box4">
-                        <a href="#">
+                    <div class="box4">
+                        <a class="asocial" href="#">
                             <img class="social" src="img/facebook.png" alt="facebook">
                         </a>
-                        <a href="#">
+                        <a class="asocial" href="#">
                             <img class="social" src="img/instagram.png" alt="instagram">  
                         </a>                                                               
                     </div>         
@@ -83,6 +104,12 @@
             </div>
         </div>
     </footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+    
 </body>
 </html>
-       
