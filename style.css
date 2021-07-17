@@ -36,22 +36,22 @@ ul {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    display: inline-block;
     padding: 15px;   
 }    
 
-.Box1 {
+.box1 {
     width: 40%;        
 }
 
-.Magyar {
+.magyar {
     font-size: 35px;
     margin: 10px 0 10px 15px;
     color: white;
     font-weight: 400;
-
 }
 
-.Box2 {
+.box2 {
     width: 60%;  
 }
 
@@ -59,72 +59,20 @@ ul {
     background-color: black;
 }
 
-.container-img {
-    margin: 0 auto;
-    width: 1200px;
-    max-width: 100%;
-}
-
-.slider {
-    position: relative;
-    height: 500px;
-}
-
-.slider li {
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    background-color: darkgray;
-    transition: opacity 0.5s;
-}
-
-.slider li img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
-
-ul.slider li:first-child {
-    opacity: 1;
-}
-
-ul.slider li:target {
-    opacity: 1;
-}
-
-.containermenu {
-    background-color: white;
-}
-
-.menu {
-    text-align: center; 
-}
-
-.menu li {
-    display: inline-block;
-    margin: 15px;    
-}
-
-.menu li a {
-    display: inline-block;    
-    text-decoration: none;
-    color: grey;
-    background-color: grey;    
-    padding: 10px;
-    height: 1px;
-    width: 1px;
-    font-size: 1px; 
-    border-radius: 100%;    
-}
-
-.container-cards {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.slider-container {    
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.slide-container img {
+    max-width: 100%;
+    
+}
+
+
+.cards {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .container-flexcards {
@@ -139,18 +87,15 @@ ul.slider li:target {
     box-shadow: 0 4px 4px black;
     background-color: black; 
     margin: 10px;
+    text-decoration: none;
+    color: white; 
+    display: inline-block;
 }
 
 .imgcard {
     max-width: 100%;  
     border-radius: 10px 0 0 0;  
     height: 220px;
-}
-
-
-.card {
-    text-decoration: none;
-    color: white;    
 }
 
 h2 {   
@@ -164,9 +109,7 @@ h2 {
     background-color: black;
 }
 
-.container-text1 {
-    max-width: 1200px;
-    margin: 0 auto;
+.text1 {
     color: black; 
     text-align: center;  
 }
@@ -189,9 +132,7 @@ p {
     background-color: rgb(216, 216, 216);
 }
 
-.container-text2 {
-    max-width: 1200px;
-    margin: 0 auto;
+.text2 {
     color: black;
     text-align: center; 
     padding-bottom: 20px;
@@ -220,8 +161,20 @@ p {
     padding-bottom: 30px;
 }
 
+.acontacto {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+
+}
+
+
 footer {
     background-color: rgb(75, 71, 71);     
+}
+
+.asocial {
+    display: inline-block;
 }
 
 .social {
@@ -232,22 +185,26 @@ footer {
     margin-bottom: 5px;
 }
 
-.Box3 {
+.box3 {
     width: 50%;
 }
 
-.Box4 {
+.box4 {
     width: 50%;
     text-align: center;    
 }
 
 @media (max-width: 992px) {
 
-    .slider {
-        position: relative;
-        height: 500px;
-        max-width: 100%;
+    .anav {
+        padding: 5px;
     }
+
+    .container-flex {
+        flex-direction: column;
+        align-items: center;    
+    }
+   
 
     .ulnav {
         flex-direction: column;
@@ -259,15 +216,17 @@ footer {
         flex-direction: column;
         align-items: center;    
     }
-    .Magyar {
+    .magyar {
         padding-top: 10px;
         font-size: 28px;
         display: block;
-        margin-right: 10px;  
+        margin-left: 0;
+       
     }
-    .Box1 {
+    .box1 {
         align-items: center;
-        
+        width: 100%;
+        text-align: center;
     }    
     .ulpregunta {
         flex-direction: column;
@@ -277,12 +236,17 @@ footer {
 }
 
 @media (max-width: 768px) {
-    
-    .slider {
-        position: relative;
-        height: 500px;
-        max-width: 100%;
+
+     .anav {
+        padding: 5px;
     }
+
+    .container-flex {
+        flex-direction: column;
+        align-items: center;    
+    }
+    
+    
     .ulnav {
         flex-direction: column;
         text-align: center;
@@ -293,14 +257,19 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    .Magyar {
+    .magyar {
         padding-top: 10px;
         font-size: 28px;
         display: block;
-        margin-right: 10px;       
+        margin-left: 0;
+             
     }
-    .Box1 {
+
+
+    .box1 {
         align-items: center;
+        width: 100%;
+        text-align: center;
         
     } 
     .ulpregunta {
